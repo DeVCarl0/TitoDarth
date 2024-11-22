@@ -1,0 +1,38 @@
+.gradient-background {
+    background: linear-gradient(300deg, #3C3D37,#697565, #ECDFCC);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .michroma-regular {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .profile-img {
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .cool-divider { 
+    height: 4px; /* Height of the divider */
+     background: linear-gradient(to right, #3C3D37, #697565); /* Gradient color */
+      border: none; /* Removes any default border */ margin: 2rem 0; /* Adds spacing above and below */ 
+      border-radius: 2px; /* Slightly rounded corners */ 
+    }
+
+
